@@ -3,7 +3,7 @@
 
 node default {
 
-#	include archive::prerequisites
+    include archive::prerequisites
 	
     class { 'geppetto':
 	user => 'developer',
