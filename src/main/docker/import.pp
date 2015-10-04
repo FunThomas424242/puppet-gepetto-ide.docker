@@ -8,16 +8,6 @@ file { "/tmp/facts.yaml":
 }
 
 
-# counsyl-sys
-exec { "counsyl-sys-modul":
-    command => "sudo puppet module install --force counsyl-sys",
-}
-
-
-# gini-archive
-exec { "gini-archive-modul":
-    command => "sudo puppet module install --force gini-archive",
-}
 
 #
 # puppetlabs
@@ -43,6 +33,16 @@ exec { "vcsrepo-modul":
     command => "sudo puppet module install --force puppetlabs-vcsrepo",
 }
 
+# counsyl-sys
+exec { "counsyl-sys-modul":
+    command => "sudo puppet module install --force counsyl-sys",
+}
+
+
+# gini-archive
+exec { "gini-archive-modul":
+    command => "sudo puppet module install --force gini-archive",
+}
 
 #
 # maestrodev

@@ -45,5 +45,5 @@ RUN  \
 
 # run terminal or geppetto
 #CMD ["/bin/bash"]
-CMD /home/developer/geppetto/geppetto
+CMD /home/developer/installationen/geppetto-4.2.0-R201407250959/geppetto/geppetto
 
